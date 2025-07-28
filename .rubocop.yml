@@ -1,0 +1,11 @@
+Lint/Void:
+  Enabled: false
+
+Layout/EmptyLines:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Lint/UselessOperationOnImmutable:
+  Enabled: false
