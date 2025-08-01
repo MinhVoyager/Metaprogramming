@@ -41,8 +41,8 @@ puts 'hello'.send(arg)
 
 # có thể xử lý bằng việc tạo 1 class Money
 
-# Money.new(2, 'VND') + Money.new(5, 'VND')
-# Money.new(2, 'VND') + Money.new(5, 'USD') # raise an error
+Money.new(2, 'VND') + Money.new(5, 'VND')
+Money.new(2, 'VND') + Money.new(5, 'USD') # raise an error
 
 # class Money
 class Money
@@ -107,7 +107,7 @@ SomeThing.new.name = 'minhhhh'
 
 # a. Cơ chế
 
-# puts 'hello'.how_are_you
+puts 'hello'.how_are_you
 
 # Khi gọi một method trên một đối tượng và method đó không được tìm thấy,
 # Ruby sẽ gọi một method đặc biệt có tên là 'method_missing'
